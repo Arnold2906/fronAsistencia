@@ -7,7 +7,7 @@ import { RegistroIngresoModel } from '../models/registroingreso.models';
 })
 export class HomeService {
 
-  private url = 'http://localhost:8080/api/registrar';
+  private url = 'https://api-computacion-fisica.herokuapp.com/api/registrar';
 
   constructor(private http: HttpClient) { }
 

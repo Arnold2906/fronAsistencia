@@ -25,7 +25,7 @@ export class HomeComponent implements OnInit {
     console.log(this.codigo);
     this.hoy = new Date();
     this.registro.codigo = this.codigo;
-    this.registro.fecha = this.hoy.getDate() + '/' + ( this.hoy.getMonth() + 1 ) + '/' + this.hoy.getFullYear();
+    this.registro.fecha = this.hoy.getFullYear() + '-' + ( this.hoy.getMonth() + 1 ) + '-' + this.hoy.getDate() ;
     this.registro.hora = this.hoy.getHours() + ':' + this.hoy.getMinutes() + ':' + this.hoy.getSeconds();
 
     
